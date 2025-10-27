@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 15p;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.main-slogan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.main-slogan h1{
+    text-align: center;
+}
+
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0 3rem;
+    flex-wrap: wrap;
+}
+
+
+.card{
+    height: 15rem;
+    padding: 0 2rem;
+    border-radius: 1rem;
+    max-width: 20rem;
+    position: relative;
+    transition: 0.2s ease-in-out;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 1rem hsl(212, 6%, 44%);
+}
+.br-1{
+    border-top: 0.3rem hsl(0, 78%, 62%) solid;
+}
+
+.br-2{
+    border-top: 0.3rem hsl(180, 62%, 55%) solid;
+}
+
+.br-3{
+    border-top: 0.3rem hsl(34, 97%, 64%) solid;
+}
+
+.br-4{
+    border-top: 0.3rem hsl(212, 86%, 64%) solid;
+}
+
+.fn-w-200{
+    font-weight: 200;
+}
+.fn-w-400{
+    font-weight: 400;
+}
+.fn-w-600{
+    font-weight: 600;
+}
+
+
+.icons-img{
+    position: absolute;
+    right: 2rem;
+}
+
+/* .middle-flex{
+    flex-direction: column;
+} */
